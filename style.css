@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: none;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav .fas.fa-times-circle{
+    display: none;
+}
+
+nav .fas.fa-bars{
+    display: block;
+}

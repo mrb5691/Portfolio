@@ -1,0 +1,14 @@
+/*Tablet information*/
+@media only screen and (min-width: 768px){
+    nav ul{
+        display: flex;
+    }
+
+}
+
+/*Computer screen information*/
+@media only screen and (min-width: 1024px){
+    nav ul{
+        display: flex;
+    }
+}
