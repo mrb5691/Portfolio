@@ -1,3 +1,9 @@
+.container{
+    display: grid;
+    grid-template-rows: 1fr 4fr 0.25fr;
+}
+
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -10,6 +16,8 @@ nav ul{
 
 nav li{
     list-style: none;
+    padding: 20px;
+    text-align: right;
 }
 
 nav .fas.fa-times-circle{
@@ -18,4 +26,32 @@ nav .fas.fa-times-circle{
 
 nav .fas.fa-bars{
     display: block;
+}
+
+img.mepic{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    padding: 20px;
+    
+}
+
+.aboutme{
+    text-align: center;
+    padding: 30px;
+}
+
+.project{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contactme{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: blue;
 }
