@@ -1,14 +1,31 @@
 /*Tablet information*/
 @media only screen and (min-width: 768px){
+    nav .tabnav{
+        display: flex;
+    }
+    .mobnav{
+        display: none;
+    }
     nav ul{
         display: flex;
     }
-
+    nav .fas.fa-bars{
+        display: none;
+    }
 }
 
 /*Computer screen information*/
 @media only screen and (min-width: 1024px){
+    nav .tabnav{
+        display: flex;
+    }
+    .mobnav{
+        display: none;
+    }
     nav ul{
         display: flex;
+    }
+    nav .fas.fa-bars{
+        display: none;
     }
 }
