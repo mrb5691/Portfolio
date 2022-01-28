@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- all required links to attach to icons, style, and responsive information about the page -->
         <meta charset="utf-8">
         <title>Mitch Bennett Portfolio</title>
         <script src="https://kit.fontawesome.com/fd52e3870d.js" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script src="app.js" charset="utf-8"></script>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="responsive.css" type="text/css" media="all" />
     </head>
@@ -14,21 +13,35 @@
         <div class = "container">
             <header>
                 <nav>
+                    <!-- two different headers that alternate based on size of screen -->
                     <h2 class = "mobnav">MRB</h2>
                     <h2 class = "tabnav">Mitchell R. Bennett</h2>
-                    <ul>
-                        <li>About me</li>
-                        <li>Projects</li>
-                        <li>Contact me</li>
+                    <!-- the menu on the right of the header -->
+                    <ul class = "menu">
+                        <li class = "menuItem"><a href="https://mrb5691.github.io/Portfolio/">About Me</a></li>
+                        <li class = "menuItem"><a href="https://mrb5691.github.io/Portfolio/">Projects</a></li>
+                        <li class = "menuItem"><a href="https://mrb5691.github.io/Portfolio/">Contact Me</a></li>
                     </ul>
+                    <!-- buttons that alternate based on if the menu is open or not -->
+                    <button class = "icon">
                     <i class="fas fa-bars"></i>
                     <i class="fas fa-times-circle"></i>
+                    </button>
                 </nav>
             </header>
             <main class = "content">
+                <!-- about me section with class in order to grid it later-->
                 <div class = "aboutme">
+                    <!-- picture of me to go with it -->
+                    <div class = "picture">
                     <img class = "mepic" src="https://i.postimg.cc/C5jTLnxj/me.jpg" alt="pic of me">
+                    </div>
+                    <!-- label of the section -->
+                    <div class = "melabel">
                     <h3>About me</h3>
+                    </div>
+                    <!-- description about myself -->
+                    <div class = "description">
                     <p>Hi there! My name is Mitchell Bennett, but I mostly go by Mitch these days.
                        I'm a new software engineer who is raring to get his foot through the door.
                        When I'm not coding on the computer I like to head outdoors to play some
@@ -38,47 +51,57 @@
                        who is willing to never give up on an issue and will always bring a smile to
                        the workplace.
                     </p>
+                    </div>
                 </div>
+                <!-- project section with class in order to grid it later -->
                 <div class = "project">
+                    <!-- label of the section -->
                     <div class = "projlabel">
                         <h1>My Projects</h1>
                     </div>
+                    <!-- first project -->
                     <div class = "project1">
                         <img src="https://i.postimg.cc/QxsZRyYV/Screen-Shot-2022-01-28-at-12-18-55-AM.png" alt="Grid Project">
                         <h3>Project 1</h3>
                     </div>
+                    <!-- second project -->
                     <div class = "project2">
                         <img src="https://i.postimg.cc/66CNbX0D/Screen-Shot-2022-01-28-at-12-18-44-AM.png" alt="Portfolio Project">
                         <h3>Project 2</h3>
                     </div>
+                    <!-- filler project -->
                     <div class = "project3">
                         <img src="https://i.postimg.cc/fb16520z/coming-soon.jpg" alt="Coming Soon">
                         <h3>Project 3</h3>
                     </div>
+                    <!-- filler project -->
                     <div class = "project4">
                         <img src="https://i.postimg.cc/fb16520z/coming-soon.jpg" alt="Coming Soon">
                         <h3>Project 4</h3>
                     </div>
                 </div>
+                <!-- contact me section -->
                 <div class = "contactme">
                     <h3>Need to reach me?</h3>
                     <p>If you would like to know more about me or the skills/jobs that I can do, 
-                        fill out the form below and I'll reach out to you as soon as I can.
+                        you can contact me at the email address below:
                     </p>
-                    <!-- possibly a file goes here -->
+                    <h2>mrb5691@gmail.com</h2>
                 </div>
             </main>
+            <!-- footer section for copyright and bottom menu selection -->
             <footer>
                  <nav>
-                    <p>copyright: blah blah blah</p>
+                    <p>copyright: MrB inc.</p>
                      <ul>
-                         <li>About me</li>
-                         <li>projects</li>
-                         <li>Contact me</li>
+                         <li><a href="https://mrb5691.github.io/Portfolio/">About Me</a></li>
+                         <li><a href="https://mrb5691.github.io/Portfolio/">Projects</a></li>
+                         <li><a href="https://mrb5691.github.io/Portfolio/">Contact Me</a> me</li>
                      </ul>
                  </nav>
             </footer>
         </div>
+        <script src="app.js" charset="utf-8"></script>
     </body>
 
 </html>

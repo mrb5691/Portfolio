@@ -1,41 +1,51 @@
+/* seperating the header, body, and footer */
 .container{
     display: grid;
     grid-template-rows: auto auto auto;
 }
 
-
+/* making the header spread out and readable */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+/* making the full name disappear */
 nav .tabnav{
     display: none;
 } 
-nav ul{
+/* for function reasons only */
+.showMenu{
+    
+}
+/* change the cursor when hovering over the button */
+.icon{
+    cursor: pointer;
+}
+/* have the menu disappear since the screen is smaller */
+.menu{
     display: none;
 }
-
+/* have the bullet points disappear and spread out the text */
 nav li{
     list-style: none;
     padding: 20px;
     text-align: right;
 }
-
+/* make sure the close button isn't on screen */
 nav .fas.fa-times-circle{
     display: none;
 }
-
+/* make sure the open button IS on screen */
 nav .fas.fa-bars{
     display: block;
 }
-
+/* give the image a border and constant size based on screen */
 img{
     width: 30%;
     border: 2px solid black;
 }
-
+/* centering the image and giving it room to breathe from the other elements */
 img.mepic{
     display: block;
     margin-right: auto;
@@ -44,12 +54,12 @@ img.mepic{
     padding: 20px;
     border-style: none;
 }
-
+/* aboutme section layout */
 .aboutme{
     text-align: center;
     padding: 30px;
 }
-
+/* projects sections layout */
 .project{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -81,22 +91,25 @@ img.mepic{
     grid-row: 3/4;
     grid-column: 2/3;
 }
-
+/* contact me section layout */
 .contactme{
     text-align: center;
     padding-bottom: 30px;
 }
-
+/* header height since it was too big */
 header{
     height:50px;
 }
-
+/* footer height since it was too big */
 footer{
-    background-color: blue;
     height: 50px;
     align-items: baseline;
 }
-
+/* match the nav with the footer height since they were overlapping */
 footer nav{
     height: 50px;
+}
+/* make the menu horizontal */
+footer nav ul{
+    display: flex;
 }

@@ -61,12 +61,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Menu | H | 1hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| content and grid display | M | 3hr | hr |
-| Javascript interaction | H | 3hr |  hr | 
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 9.hrs | hrs |
+| Menu | H | 1hr | 0.5hr |
+| Regular Nav | H | 1hr | 4hr |  
+| content and grid display | M | 3hr | 3hr |
+| Javascript interaction | H | 3hr |  4hr | 
+| Social Media Icons | L | 1hr |  0hr |
+| Total | H | 9.hrs | 11.5hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -79,7 +79,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 13.5hrs | hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ www.fontawesome.com (for icons)
+ www.pexels.com (for images)
 
 ## Code Snippet
 
